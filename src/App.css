@@ -19,3 +19,12 @@
 .NavBarPrinc{
   background-color: rgb(32, 39, 72);
 }
+
+.imagenBanner{
+  height: 500px;
+  filter: brightness(70%);
+}
+
+.textoBannerPrincipal h1{
+  font-size: 50px;
+}
