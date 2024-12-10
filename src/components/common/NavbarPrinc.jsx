@@ -6,7 +6,7 @@ import logo from "../../img/logoPrincipal.png";
 
 const NavbarPrinc = () => {
   return (
-    <Navbar className="NavBarPrinc p-3">
+    <Navbar  expand="lg" className="NavBarPrinc p-3">
       <Container >
         <Navbar.Brand href="#home" ><img src={logo} alt="logo principal "className='miLogo' /></Navbar.Brand>
         <Navbar.Toggle />
