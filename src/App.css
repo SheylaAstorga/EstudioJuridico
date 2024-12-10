@@ -2,7 +2,7 @@
     font-family: "Source Serif 4", serif;
     font-optical-sizing: auto;
     font-weight: normal;
-    font-style: italic ; 
+    font-style: normal ; 
   }
   
 .MiniNav{
@@ -10,4 +10,12 @@
 }
 .logoLinkedin{
   width: 1.5em;
+}
+
+.miLogo{
+  width: 8em;
+} 
+
+.NavBarPrinc{
+  background-color: rgb(32, 39, 72);
 }
