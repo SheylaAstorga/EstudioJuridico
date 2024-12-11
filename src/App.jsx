@@ -6,6 +6,7 @@ import BannerPrincipal from "./Pagina Principal/BannerPrincipal";
 import SobreNosotros from "./Pagina Principal/SobreNosotros";
 import Servicios from "./Pagina Principal/Servicios";
 import Asesoramiento from "./Pagina Principal/Asesoramiento";
+import Ubicacion from "./Pagina Principal/Ubicacion";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
     <SobreNosotros></SobreNosotros>
     <Servicios></Servicios>
     <Asesoramiento></Asesoramiento>
+    <Ubicacion></Ubicacion>
     </>
   );
 }
