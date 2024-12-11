@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap";
 
 const Asesoramiento = () => {
     return (
-        <section className="my-5 text-center">
+        <section className="my-5 text-center asesoramientoSec">
             <h2>Asesoramiento Legal Personalizado</h2>
             <h6>Estamos aquí para ayudarte. Contáctanos ante cualquier consulta</h6>
             <div className="mt-5">

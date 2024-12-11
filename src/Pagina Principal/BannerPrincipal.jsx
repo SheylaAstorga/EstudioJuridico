@@ -8,9 +8,9 @@ const BannerPrincipal = () => {
         alt="banner estudio juridico "
         className="img-fluid w-100 imagenBanner"
       />
-      <div className="position-absolute top-50 start-50 translate-middle text-center text-white textoBannerPrincipal">
+      <div className="position-absolute top-50 start-50 translate-middle text-center text-white w-100  textoBannerPrincipal">
         <h1>Estudio vega & asociados</h1>
-        <p>Protegiendo tus derechos, construyendo confianza</p>
+        <h6>Protegiendo tus derechos, construyendo confianza</h6>
       </div>
     </section>
   );

@@ -1,7 +1,7 @@
 const SobreNosotros = () => {
   return (
-    <section className="my-5">
-      <h2 className="sobreNosotrosIntro text-center">
+    <section className="my-5 sobreNosotrosIntro">
+      <h2 className=" text-center">
         Tu aliado legal en Tucumán
       </h2>
       <h6 className="text-center">
@@ -9,7 +9,7 @@ const SobreNosotros = () => {
       </h6>
       <hr />
       <section className="mt-5 InfoNosotros d-flex flex-column flex-md-row p-4">
-        {/* Primera columna */}
+
         <div className="col-12 col-md-6 p-3">
           <h2>Quiénes Somos</h2>
           <hr />
@@ -29,7 +29,6 @@ const SobreNosotros = () => {
           </a>
         </div>
 
-        {/* Segunda columna */}
         <div className="col-12 col-md-6 p-3">
           <h2>Nuestros Objetivos</h2>
           <hr />

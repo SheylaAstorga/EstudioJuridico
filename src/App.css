@@ -61,8 +61,7 @@ h2{
 }
 
 .cardServicios:hover {
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
-}
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); }
 
 .botonServicios{
   background: rgb(32, 39, 72) ;
@@ -88,4 +87,49 @@ h2{
 }
 .FooterPrinc {
   background-color: rgb(32, 39, 72);
+}
+
+@media (max-width: 479px) {
+  body {
+    font-size: 13px;
+  }
+  .contenedor {
+    padding: 10px;
+  }
+
+  .textoBannerPrincipal h1{
+    font-size: 40px;
+    margin-bottom: 1em;
+  }
+  .textoBannerPrincipal {
+     padding: 4em;
+  }
+
+  .imagenBanner{
+    height: 350px;
+    filter: brightness(70%);
+  }
+
+  .sobreNosotrosIntro{
+    color: rgb(32, 39, 72);
+    padding: 1em;
+  }
+
+  h6{
+    font-size: 12px;
+  }
+
+  .asesoramientoSec{
+    padding: 1em;
+  }
+
+  .logoWhats{
+    width: 20px;
+    margin-right:0.5em;
+  }
+  
+  .seccionBotonContactanos{
+    font-size: 3px;
+  }
+
 }
