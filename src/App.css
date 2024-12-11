@@ -11,6 +11,17 @@ h2{
 .MiniNav{
     background-color: rgb(239, 238, 238);
 }
+
+.botonConsultaMini{
+  background-color: rgb(32, 39, 72);
+  border-color: rgb(32, 39, 72);
+  border-radius: 2em;
+}
+
+.botonConsultaMini:hover{
+  background-color:rgb(46, 56, 103);
+}
+
 .logoLinkedin{
   width: 1.5em;
 }

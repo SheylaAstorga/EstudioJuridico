@@ -1,6 +1,6 @@
 const SobreNosotros = () => {
   return (
-    <section className=" my-5  ">
+    <section className="my-5">
       <h2 className="sobreNosotrosIntro text-center">
         Tu aliado legal en Tucumán
       </h2>
@@ -8,11 +8,12 @@ const SobreNosotros = () => {
         Trayectoria, confianza y soluciones a medida para cada caso
       </h6>
       <hr />
-      <section className="mt-5 InfoNosotros d-flex p-4">
-        <div className="w-50 p-4">
-          <h2>Quienes Somos</h2>
+      <section className="mt-5 InfoNosotros d-flex flex-column flex-md-row p-4">
+        {/* Primera columna */}
+        <div className="col-12 col-md-6 p-3">
+          <h2>Quiénes Somos</h2>
           <hr />
-          <p >
+          <p>
             Con años de experiencia en derecho civil, comercial y laboral,
             nuestro equipo combina tradición y modernidad para garantizar una
             defensa sólida y asesoramiento confiable. Nuestro compromiso se
@@ -23,11 +24,13 @@ const SobreNosotros = () => {
             asesoramiento preventivo, estamos aquí para acompañarte en cada paso
             de tu camino legal.
           </p>
-          <a href="" className="text-decoration-none leerMas">
+          <a href="#" className="text-decoration-none leerMas">
             Leer más...
           </a>
         </div>
-        <div className="w-50  p-4">
+
+        {/* Segunda columna */}
+        <div className="col-12 col-md-6 p-3">
           <h2>Nuestros Objetivos</h2>
           <hr />
           <ul>
