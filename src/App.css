@@ -61,3 +61,16 @@ h2{
 .botonServicios:hover{
   background-color:rgb(46, 56, 103);
 }
+.logoWhats{
+  width: 25px;
+  margin-right:0.5em;
+}
+
+.botonAsesor{
+  background-color: rgb(32, 39, 72);
+  border-color: rgb(32, 39, 72);
+}
+
+.botonAsesor:hover{
+  background-color: rgb(46, 56, 103);
+}

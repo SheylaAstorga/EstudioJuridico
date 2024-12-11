@@ -5,6 +5,7 @@ import NavbarPrinc from "./components/common/NavbarPrinc";
 import BannerPrincipal from "./Pagina Principal/BannerPrincipal";
 import SobreNosotros from "./Pagina Principal/SobreNosotros";
 import Servicios from "./Pagina Principal/Servicios";
+import Asesoramiento from "./Pagina Principal/Asesoramiento";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <BannerPrincipal></BannerPrincipal>
     <SobreNosotros></SobreNosotros>
     <Servicios></Servicios>
+    <Asesoramiento></Asesoramiento>
     </>
   );
 }
