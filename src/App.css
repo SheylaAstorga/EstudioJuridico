@@ -42,3 +42,15 @@ h2{
 .InfoNosotros{
   background-color: rgb(217, 217, 217);
 }
+
+.cardServicios{
+  background-color: rgb(217, 217, 217);
+  border: 4em;
+  
+}
+
+.cardServicios:hover {
+  /* transform: scale(1.05);  */
+  /* transition: transform 0.3s ease-in-out; */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+}

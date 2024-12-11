@@ -4,6 +4,7 @@ import Minibar from "./components/common/Minibar";
 import NavbarPrinc from "./components/common/NavbarPrinc";
 import BannerPrincipal from "./Pagina Principal/BannerPrincipal";
 import SobreNosotros from "./Pagina Principal/SobreNosotros";
+import Servicios from "./Pagina Principal/Servicios";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <NavbarPrinc></NavbarPrinc>
     <BannerPrincipal></BannerPrincipal>
     <SobreNosotros></SobreNosotros>
+    <Servicios></Servicios>
     </>
   );
 }
