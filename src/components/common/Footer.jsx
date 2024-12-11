@@ -6,7 +6,6 @@ const Footer = () => {
     <footer className="FooterPrinc text-light py-4">
       <Container>
         <Row className="align-items-center">
-          {/* Columna del Logo */}
           <Col md={4} className="text-center text-md-start">
             <img
               src={logo}
@@ -19,7 +18,6 @@ const Footer = () => {
             </p>
           </Col>
 
-          {/* Columna de Información de Contacto */}
           <Col md={4} className="text-center">
             <h5>Contacto</h5>
             <p className="mb-1">Avenida Alem 1234, Piso 5</p>
@@ -28,7 +26,6 @@ const Footer = () => {
             <p>Email: contacto@estudiojuridico.com</p>
           </Col>
 
-          {/* Columna de Enlaces de Interés */}
           <Col md={4} className="text-center text-md-end">
             <h5>Enlaces</h5>
             <ul className="list-unstyled">
