@@ -57,6 +57,7 @@ h2{
   background: rgb(32, 39, 72) ;
   width: 10%;
   border-radius: 1em;
+  border-color:rgb(32, 39, 72) ;
 }
 .botonServicios:hover{
   background-color:rgb(46, 56, 103);
