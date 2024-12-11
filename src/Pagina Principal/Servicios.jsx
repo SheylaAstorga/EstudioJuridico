@@ -32,7 +32,7 @@ const Servicios = () => {
             text: "Colaboramos para impulsar objetivos comerciales. Colaboramos para impulsar tus objetivos y marcar la diferencia en tu estrategia comercial.",
           },
         ].map((service, index) => (
-          <Col key={index} xs={12} sm={6} md={4}>
+          <Col key={index} xs={12} sm={6} md={6}>
             <Card className="cardServicios h-100 p-3">
               <Card.Body className="text-center d-flex flex-column">
                 <Card.Title className="p-3">{service.title}</Card.Title>

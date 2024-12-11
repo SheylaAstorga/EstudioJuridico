@@ -3,6 +3,7 @@
     font-optical-sizing: auto;
     font-weight: normal;
     font-style: normal ; 
+    background-color:rgba(249, 250, 248, 1);
   }
   
 h2{
@@ -85,9 +86,53 @@ h2{
 .botonAsesor:hover{
   background-color: rgb(46, 56, 103);
 }
+
+
+.ubicacion-container {
+  background-color: #e0e2e4; 
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+  font-size: 2rem;
+  color: #203148; 
+  font-weight: 600;
+}
+
+.divider {
+  border: 1px solid #203148;
+  width: 50%;
+  margin: 0 auto 1rem auto; 
+}
+
+.direccion {
+  color: #495057; 
+  font-size: 1rem;
+}
+
+.iframe-container {
+  border: 5px solid #203148; 
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.mapa {
+  border: none;
+}
+
+
+
+
+
 .FooterPrinc {
   background-color: rgb(32, 39, 72);
 }
+
+
+
+
 
 @media (max-width: 479px) {
   body {
@@ -132,4 +177,21 @@ h2{
     font-size: 3px;
   }
 
+}
+
+@media (min-width: 992px) {
+  .ubicacion-container {
+    height: 80vh;
+  }
+  .iframe-container {
+    border: 5px solid #203148; 
+    border-radius: 10px;
+    overflow: hidden;
+    height: 50%;
+  }
+  
+  .mapa {
+    border: none;
+    height: 50%;
+  }
 }
