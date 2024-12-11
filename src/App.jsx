@@ -7,6 +7,7 @@ import SobreNosotros from "./Pagina Principal/SobreNosotros";
 import Servicios from "./Pagina Principal/Servicios";
 import Asesoramiento from "./Pagina Principal/Asesoramiento";
 import Ubicacion from "./Pagina Principal/Ubicacion";
+import Footer from "./components/common/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
     <Servicios></Servicios>
     <Asesoramiento></Asesoramiento>
     <Ubicacion></Ubicacion>
+    <Footer></Footer>
     </>
   );
 }
