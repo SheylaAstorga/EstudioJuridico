@@ -43,7 +43,7 @@ const Servicios = () => {
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={12} sm={6} md={4} lg={4} >
+        <Col xs={12} sm={6} md={4} lg={4}>
           <Card className="cardServicios" style={{ height: "300px" }}>
             <Card.Body className="text-center mt-lg-4">
               <Card.Title className="p-3">DERECHO AGRARIO</Card.Title>
@@ -64,7 +64,6 @@ const Servicios = () => {
                 sucesorias. Acompañamos con ética y compromiso, brindando
                 soluciones personalizadas para superar desafíos
               </Card.Text>
-              
             </Card.Body>
           </Card>
         </Col>
@@ -77,11 +76,13 @@ const Servicios = () => {
                 para impulsar tus objetivos y marcar la diferencia en tu
                 estrategia comercial.
               </Card.Text>
-              
             </Card.Body>
           </Card>
         </Col>
       </Row>
+      <div className="text-center">
+        <Button className="botonServicios">VER MAS...</Button>
+      </div>
     </Container>
   );
 };
