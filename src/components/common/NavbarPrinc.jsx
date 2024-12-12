@@ -11,7 +11,7 @@ const NavbarPrinc = () => {
         <Navbar.Brand href="#home" ><img src={logo} alt="logo principal "className='miLogo' /></Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse  >
-          <Nav className="ms-auto ">
+          <Nav className="ms-auto gap-2  ">
             <Nav.Link href="#home" className='text-light'>INICIO</Nav.Link>
             <Nav.Link href="#link" className='text-light'>NUESTRO ESTUDIO</Nav.Link>
             <Nav.Link href="#link" className='text-light'>NUESTROS PROFESIONALES</Nav.Link>

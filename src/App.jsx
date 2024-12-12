@@ -2,24 +2,26 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Minibar from "./components/common/Minibar";
 import NavbarPrinc from "./components/common/NavbarPrinc";
-import BannerPrincipal from "./Pagina Principal/BannerPrincipal";
-import SobreNosotros from "./Pagina Principal/SobreNosotros";
-import Servicios from "./Pagina Principal/Servicios";
-import Asesoramiento from "./Pagina Principal/Asesoramiento";
-import Ubicacion from "./Pagina Principal/Ubicacion";
 import Footer from "./components/common/Footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Inicio from "../src/components/pages/Inicio";
+import Error404 from "./components/pages/Error404";
+import NuestroEstudio from "./components/pages/NuestroEstudio";
 
 function App() {
   return (
     <>
-    <Minibar></Minibar>
-    <NavbarPrinc></NavbarPrinc>
-    <BannerPrincipal></BannerPrincipal>
-    <SobreNosotros></SobreNosotros>
-    <Servicios></Servicios>
-    <Asesoramiento></Asesoramiento>
-    <Ubicacion></Ubicacion>
-    <Footer></Footer>
+      <BrowserRouter>
+        <Minibar></Minibar>
+        <NavbarPrinc></NavbarPrinc>
+        <Routes>
+          <Route exact path="/" element={<Inicio></Inicio>}></Route>
+          <Route path="*" element={<Error404></Error404>}></Route>
+          <Route path="/estudio" element={<NuestroEstudio></NuestroEstudio>}></Route>
+        </Routes>
+        <Footer></Footer>
+      </BrowserRouter>
+
     </>
   );
 }

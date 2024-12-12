@@ -130,8 +130,18 @@ h2{
   background-color: rgb(32, 39, 72);
 }
 
+.error404{
+  color:rgb(32, 39, 72) ;
+}
 
+.botonError{
+  background-color: rgb(32, 39, 72);
+  border-color: #203148;
+}
 
+.botonError:hover{
+  background-color:rgb(46, 56, 103) ;
+}
 
 
 @media (max-width: 479px) {
