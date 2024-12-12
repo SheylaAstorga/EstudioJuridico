@@ -144,6 +144,35 @@ h2{
 }
 
 
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgb(32, 39, 72);
+}
+
+.card img {
+  object-fit: cover;
+  height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 479px) {
   body {
     font-size: 13px;

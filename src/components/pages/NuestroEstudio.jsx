@@ -34,7 +34,7 @@ const NuestroEstudio = () => {
           </p>
         </Col>
 
-        <Col md={12} lg={6} className= "text-center ">
+        <Col md={12} lg={6} className="text-center ">
           <img
             src={abogados}
             alt="Nuestro equipo"

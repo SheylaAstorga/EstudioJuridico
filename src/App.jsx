@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Inicio from "../src/components/pages/Inicio";
 import Error404 from "./components/pages/Error404";
 import NuestroEstudio from "./components/pages/NuestroEstudio";
+import NuestrosProfesionales from "./components/pages/NuestrosProfesionales";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route exact path="/" element={<Inicio></Inicio>}></Route>
           <Route path="*" element={<Error404></Error404>}></Route>
           <Route path="/estudio" element={<NuestroEstudio></NuestroEstudio>}></Route>
+          <Route path="/profesionales" element={<NuestrosProfesionales></NuestrosProfesionales>}></Route>
         </Routes>
         <Footer></Footer>
       </BrowserRouter>
