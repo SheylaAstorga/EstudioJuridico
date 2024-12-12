@@ -160,15 +160,57 @@ h2{
 }
 
 
+.areas-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
 
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
 
+.area-display {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
 
+.area-title {
+  font-size: 1.8rem;
+  color: #34495e;
+  margin-bottom: 10px;
+}
 
+.area-description {
+  font-size: 1rem;
+  color: #7f8c8d;
+}
 
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  
+}
 
+.botonAnt {
+  font-size: 1rem;
+  padding: 7px 15px;
+  background-color: #203148;
+  border-color: #203148;
+}
 
-
-
+.botonAnt:hover{
+  background-color: #34495e;
+}
 
 
 

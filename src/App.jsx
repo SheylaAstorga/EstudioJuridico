@@ -9,6 +9,7 @@ import Error404 from "./components/pages/Error404";
 import NuestroEstudio from "./components/pages/NuestroEstudio";
 import NuestrosProfesionales from "./components/pages/NuestrosProfesionales";
 import NuestrosServicios from "./components/pages/NuestrosServicios";
+import AreasPractica from "./components/pages/AreasPractica";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/estudio" element={<NuestroEstudio></NuestroEstudio>}></Route>
           <Route path="/profesionales" element={<NuestrosProfesionales></NuestrosProfesionales>}></Route>
           <Route path="/servicios" element={<NuestrosServicios></NuestrosServicios>}></Route>
+          <Route path="/practicas" element={<AreasPractica></AreasPractica>}></Route>
         </Routes>
         <Footer></Footer>
       </BrowserRouter>
