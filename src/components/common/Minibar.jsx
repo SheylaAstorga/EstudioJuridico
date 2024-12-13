@@ -44,7 +44,7 @@ const Minibar = () => {
       </div>
 
       <div className="d-flex align-items-center d-none d-md-flex mt-md-3 mt-lg-0">
-        <Button className="botonConsultaMini text-nowrap">
+        <Button target="_blank" rel="noopener noreferrer" href="https://web.whatsapp.com/" className="botonConsultaMini text-nowrap">
           SOLICITAR UNA CONSULTA
         </Button>
       </div>

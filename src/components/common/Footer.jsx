@@ -30,25 +30,25 @@ const Footer = () => {
             <h5>Enlaces</h5>
             <ul className="list-unstyled">
               <li>
-                <a href="#nosotros" className="text-light text-decoration-none">
+                <a href="/estudio" className="text-light text-decoration-none">
                   Sobre Nosotros
                 </a>
               </li>
               <li>
                 <a
-                  href="#servicios"
+                  href="/servicios"
                   className="text-light text-decoration-none"
                 >
                   Servicios
                 </a>
               </li>
               <li>
-                <a href="#contacto" className="text-light text-decoration-none">
+                <a href="/estudio" className="text-light text-decoration-none">
                   Contacto
                 </a>
               </li>
               <li>
-                <a href="#blog" className="text-light text-decoration-none">
+                <a href="*" className="text-light text-decoration-none">
                   Blog
                 </a>
               </li>
