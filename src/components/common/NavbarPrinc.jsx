@@ -1,22 +1,22 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-
+import { Link,NavLink } from 'react-router-dom';
 import logo from "../../img/logoPrincipal.png";
 
 const NavbarPrinc = () => {
   return (
     <Navbar  expand="lg" className="NavBarPrinc p-3">
       <Container >
-        <Navbar.Brand href="#home" ><img src={logo} alt="logo principal "className='miLogo' /></Navbar.Brand>
+        <Navbar.Brand as={Link} to={"/"} ><img src={logo} alt="logo principal "className='miLogo' /></Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse  >
           <Nav className="ms-auto gap-2  ">
-            <Nav.Link href="#home" className='text-light'>INICIO</Nav.Link>
-            <Nav.Link href="#link" className='text-light'>NUESTRO ESTUDIO</Nav.Link>
-            <Nav.Link href="#link" className='text-light'>NUESTROS PROFESIONALES</Nav.Link>
-            <Nav.Link href="#link" className='text-light'>SERVICIOS</Nav.Link>
-            <Nav.Link href="#link" className='text-light'>AREAS DE PRACTICAS</Nav.Link>
+            <NavLink href="#home" className='text-light nav-link' to={"/"}>INICIO</NavLink>
+            <NavLink href="#link" className='text-light nav-link' to={"/estudio"}>NUESTRO ESTUDIO</NavLink>
+            <NavLink href="#link" className='text-light nav-link' to={"/profesionales"}>NUESTROS PROFESIONALES</NavLink>
+            <NavLink href="#link" className='text-light nav-link' to={"/servicios"}>SERVICIOS</NavLink>
+            <NavLink href="#link" className='text-light nav-link' to={"/practicas"}>AREAS DE PRACTICAS</NavLink>
           </Nav>
         </Navbar.Collapse>
       </Container>
