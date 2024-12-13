@@ -1,5 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import logo from "../../img/logoPrincipal.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -30,27 +31,27 @@ const Footer = () => {
             <h5>Enlaces</h5>
             <ul className="list-unstyled">
               <li>
-                <a href="/estudio" className="text-light text-decoration-none">
+                <Link to={"/estudio"} className="text-light text-decoration-none">
                   Sobre Nosotros
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="/servicios"
+                <Link
+                  to={"/servicios"}
                   className="text-light text-decoration-none"
                 >
                   Servicios
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/estudio" className="text-light text-decoration-none">
+                <Link to={"/estudio"} className="text-light text-decoration-none">
                   Contacto
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="*" className="text-light text-decoration-none">
+                <Link to={"*"} className="text-light text-decoration-none">
                   Blog
-                </a>
+                </Link>
               </li>
             </ul>
           </Col>
