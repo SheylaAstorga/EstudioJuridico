@@ -43,13 +43,13 @@ const Servicios = () => {
         ))}
       </Row>
       <div className="text-center mt-4">
-        <Button
+        <a
          href="/practicas"
           className="botonServicios px-4 py-2"
-          style={{ fontSize: "1rem", maxWidth: "200px", width: "100%" }}
+          style={{ fontSize: "1rem", maxWidth: "200px", width: "100%", display: "inline-block", textAlign: "center" }}
         >
           VER MÁS...
-        </Button>
+        </a>
       </div>
     </Container>
   );
