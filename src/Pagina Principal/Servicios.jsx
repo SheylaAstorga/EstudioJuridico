@@ -42,15 +42,6 @@ const Servicios = () => {
           </Col>
         ))}
       </Row>
-      <div className="text-center mt-4">
-        <a
-         href="/practicas"
-          className="botonServicios px-4 py-2"
-          style={{ fontSize: "1rem", maxWidth: "200px", width: "100%", display: "inline-block", textAlign: "center" }}
-        >
-          VER MÁS...
-        </a>
-      </div>
     </Container>
   );
 };
